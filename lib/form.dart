@@ -41,7 +41,7 @@ class _MyFormState extends State<MyForm> {
         centerTitle: true,
       ),
       body: Container(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.all(10.0),
         // Wrap the ListView with a Form widget for validation
         child: Form(
           key: _formKey, // Assign the form key
